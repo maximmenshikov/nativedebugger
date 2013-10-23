@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplyingSecuritySettings" xml:space="preserve">
+    <value>Sicherheits-Einstellungen werden übernommen...</value>
+  </data>
+  <data name="CopyingFiles" xml:space="preserve">
+    <value>Kopiere Dateien...</value>
+  </data>
+  <data name="CoreConIPs" xml:space="preserve">
+    <value>CoreCon IPs:</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="InstanciatingNativeCode" xml:space="preserve">
+    <value>Problem mit Nativ-Code-Instanz</value>
+  </data>
+  <data name="NoIPs" xml:space="preserve">
+    <value>Keine IPs!</value>
+  </data>
+  <data name="NoRootAccess" xml:space="preserve">
+    <value>Anwendung hat keinen Root-Zugriff auf Ihrem Gerät. Stellen Sie sicher, dass Sie ein Full-Unlock ROM verwenden.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="RegisteringComDll" xml:space="preserve">
+    <value>Registriere COM dll...</value>
+  </data>
+  <data name="RegisteringComDllProblem" xml:space="preserve">
+    <value>Problem beim registrieren von COM dll</value>
+  </data>
+  <data name="StartDebuggerAutomatically" xml:space="preserve">
+    <value>Debugger automatisch starten</value>
+  </data>
+  <data name="StartingConnectionManager" xml:space="preserve">
+    <value>Verbindungs-Manager starten...</value>
+  </data>
+  <data name="StartingConnectionManagerProblem" xml:space="preserve">
+    <value>Problem während Erstellung des Verbindungs-Managers</value>
+  </data>
+  <data name="StartingRapiWorker" xml:space="preserve">
+    <value>Starte RAPI Worker...</value>
+  </data>
+  <data name="StartingRapiWorkerProblem" xml:space="preserve">
+    <value>Problem während Erstellung des RAPI Worker</value>
+  </data>
+  <data name="StartWmdcAutomatically" xml:space="preserve">
+    <value>Starte WMDC automatisch</value>
+  </data>
+  <data name="TerminatingProcesses" xml:space="preserve">
+    <value>Prozesse beenden...</value>
+  </data>
+  <data name="UsePcDebugger" xml:space="preserve">
+    <value>VS Debugger des PC's verwenden</value>
+  </data>
+  <data name="WaitingForIpResolving" xml:space="preserve">
+    <value>Warten auf IP-Auflösung</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warnung!</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="AboutNotice" xml:space="preserve">
+    <value>Diese Anwendung wird "WIE SIE IST" ohne Garantien zur Verfügung gestellt. Der Ersteller ist nicht verantwortlich für Probleme die aus der Anwendungsnutzung entstehen.</value>
+  </data>
+  <data name="AboutPleaseNote" xml:space="preserve">
+    <value>Bitte beachten:</value>
+  </data>
+  <data name="HomeAbout" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="MsProperty" xml:space="preserve">
+    <value>Windows Mobile Device Center Handelsmarke ist Eigentum der Microsoft Corporation. </value>
+  </data>
+  <data name="WmdcLauncher" xml:space="preserve">
+    <value>Windows Mobile Device Center Starter</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Ausführen</value>
+  </data>
+  <data name="btnDisable" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="StateDebuggerDisabled" xml:space="preserve">
+    <value>Debugger läuft nicht</value>
+  </data>
+  <data name="StateDebuggerEnabled" xml:space="preserve">
+    <value>Debugger läuft</value>
+  </data>
+  <data name="StateDisabled" xml:space="preserve">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="StateEnabled" xml:space="preserve">
+    <value>Aktiviert</value>
+  </data>
+  <data name="StateEnabling" xml:space="preserve">
+    <value>Aktiviere...</value>
+  </data>
+  <data name="StateFailed" xml:space="preserve">
+    <value>Nicht erfolgreich</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="InfoClickToRun" xml:space="preserve">
+    <value>Drücken Sie "Ausführen", um Windows Mobile Device Center Telefon-Client zu starten.</value>
+  </data>
+  <data name="InfoDebuggingProblems" xml:space="preserve">
+    <value>Wenn Sie Probleme mit Anwendungs-Debugging haben, klicken sie auf "Deaktivieren" und verbinden Sie das Telefon erneut mit Ihrem PC.</value>
+  </data>
+  <data name="InfoDebuggingRun" xml:space="preserve">
+    <value>Benutzen Sie Microsoft Visual Studio 2008 für natives Anwendungs-debugging oder Microsoft Visual Studio 2010/2012 für silverlight Anwendungs-debugging.</value>
+  </data>
+  <data name="InfoInstallWmdcOnPc" xml:space="preserve">
+    <value>Installieren Sie Windows Mobile Device Center auf Ihrem PC, um Dateizugriff auf Ihrem Gerät zu erhalten.</value>
+  </data>
+  <data name="Launch" xml:space="preserve">
+    <value>Starten</value>
+  </data>
+  <data name="StateDebuggerDisabling" xml:space="preserve">
+    <value>Debugger wird deaktiviert...</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="SystemIntegration" xml:space="preserve">
+    <value>System-Integration</value>
+  </data>
+  <data name="SystemIntegrationInfo" xml:space="preserve">
+    <value>Aktivieren, um WMDC beim Systemstart auszuführen.</value>
+  </data>
+  <data name="AboutDevoted" xml:space="preserve">
+    <value>Dieses Projekt ist S.D. gewidmet.</value>
+  </data>
+</root>

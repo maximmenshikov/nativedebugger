@@ -1,0 +1,47 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WmdcLauncher.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+    Style="{StaticResource TransitionPageStyle}"
+    Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="PageTitle" Text="{Binding Path=Resources.About, Source={StaticResource Localization}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" TextOptions.TextHintingMode="Animated"/>
+        </StackPanel>
+        <Grid x:Name="ContentPanel" Margin="0,-1,0,0" Grid.Row="1">
+            <Grid>
+                <ScrollViewer>
+                    <StackPanel Margin="20,0" VerticalAlignment="Top">
+                        <TextBlock Margin="0" x:Name="AppTitle" Text="{Binding Path=Resources.WmdcLauncher, Source={StaticResource Localization}}" FontSize="32" FontFamily="Segoe WP" TextOptions.TextHintingMode="Animated" TextWrapping="Wrap" />
+                        <TextBlock Margin="0" x:Name="AppAuthor" Text="© ultrashot 2011-2013" FontSize="26.667" TextOptions.TextHintingMode="Animated" />
+                        <TextBlock Margin="0,30,0,0" x:Name="txtPleaseNote" Text="{Binding Resources.AboutPleaseNote, Source={StaticResource Localization}}" Foreground="{StaticResource PhoneContrastBackgroundBrush}" FontSize="24" TextOptions.TextHintingMode="Animated" />
+                        <TextBlock x:Name="txtNotice" Text="{Binding Resources.AboutNotice, Source={StaticResource Localization}}" Foreground="{StaticResource PhoneBorderBrush}" TextWrapping="Wrap" FontSize="24" TextOptions.TextHintingMode="Animated" Margin="0" />
+                        <TextBlock Margin="0,40,0,0" x:Name="txtMsProperty" Text="{Binding Resources.MsProperty, Source={StaticResource Localization}}" FontSize="24" TextOptions.TextHintingMode="Animated" TextWrapping="Wrap" FontFamily="Segoe WP" Foreground="{StaticResource PhoneBorderBrush}" />
+                        <TextBlock Margin="0,40,0,0" x:Name="txtProjectDevoted" Text="{Binding Resources.AboutDevoted, Source={StaticResource Localization}}" FontSize="24" TextOptions.TextHintingMode="Animated" TextWrapping="Wrap" FontFamily="Segoe WP" Foreground="{StaticResource PhoneBorderBrush}" />
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+
+        <!--ContentPanel - place additional content here-->
+    </Grid>
+    
+</phone:PhoneApplicationPage>

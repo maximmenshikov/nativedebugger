@@ -1,0 +1,402 @@
+<DeviceCapabilities>
+    <FormatCapability FormatCode="UNDEFINEDFORMAT">
+        <Config>
+            <Property Name="WMDM/FileName">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/PersistentUniqueID">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Title">
+                <Any/>
+            </Property>
+        </Config>
+    </FormatCapability>
+    <FormatCapability FormatCode="MP3">
+        <Config>
+            <Property Name="WMDM/Author">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/AlbumTitle">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Bitrate">
+                <Range Minimum="0" Maximum="384000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/BuyNow">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Duration">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/FileName">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Genre">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/NumChannels">
+                <Range Minimum="1" Maximum="2" Step="1"/>
+            </Property>
+            <Property Name="WMDM/PersistentUniqueID">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/PlayCount">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/SampleRate">
+                <Enum>
+                	<Value>8000</Value>
+                	<Value>11025</Value>
+                	<Value>16000</Value>
+                	<Value>22050</Value>
+                	<Value>32000</Value>
+                	<Value>44100</Value>
+                	<Value>48000</Value>
+                </Enum>
+            </Property>
+            <Property Name="WMDM/Title">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Track">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/UserEffectiveRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/UserRating">
+                <Any/>
+            </Property>
+        </Config>
+    </FormatCapability>
+    <FormatCapability FormatCode="WMA">
+        <Config>
+            <Property Name="WMDM/AudioWAVECodec">
+                <Enum>
+                    <Value>WMASPEECH1</Value>
+                    <Value>WMA1</Value>
+                    <Value>WMASTD1</Value>
+					<Value>WMAPRO1</Value>
+					<Value>WMALOSSLESS</Value>
+                </Enum>
+            </Property>
+            <Property Name="WMDM/Author">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/AlbumTitle">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Bitrate">
+                <Range Minimum="0" Maximum="384000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/BuyNow">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Duration">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/FileName">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Genre">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/NumChannels">
+                <Range Minimum="1" Maximum="2" Step="1"/>
+            </Property>
+            <Property Name="WMDM/ParentalRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/PersistentUniqueID">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/PlayCount">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/SampleRate">
+                <Enum>
+                	<Value>8000</Value>
+                	<Value>11025</Value>
+                	<Value>16000</Value>
+                	<Value>22050</Value>
+                	<Value>32000</Value>
+                	<Value>44100</Value>
+                	<Value>48000</Value>
+                </Enum>
+            </Property>
+            <Property Name="WMDM/Title">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Track">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/UserEffectiveRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/UserRating">
+                <Any/>
+            </Property>
+        </Config>
+    </FormatCapability>
+    <FormatCapability FormatCode="ASF">
+        <Config>
+            <Property Name="WMDM/AudioWAVECodec">
+                <Enum>
+                    <Value>WMASPEECH1</Value>
+                    <Value>WMA1</Value>
+                    <Value>WMASTD1</Value>
+					<Value>WMAPRO1</Value>
+					<Value>WMALOSSLESS</Value>
+                </Enum>
+            </Property>
+            <Property Name="WMDM/Author">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/AlbumTitle">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Bitrate">
+                <Range Minimum="0" Maximum="384000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/BuyNow">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Description">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Duration">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/FileName">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/FrameRate">
+                <Range Minimum="0" Maximum="30000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/Genre">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Height">
+                <Range Minimum="0" Maximum="240" Step="1"/>
+            </Property>
+            <Property Name="WMDM/NumChannels">
+                <Range Minimum="1" Maximum="2" Step="1"/>
+            </Property>
+            <Property Name="WMDM/ParentalRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/PersistentUniqueID">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/PlayCount">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/ProviderCopyright">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/SampleRate">
+                <Enum>
+                	<Value>8000</Value>
+                	<Value>11025</Value>
+                	<Value>16000</Value>
+                	<Value>22050</Value>
+                	<Value>32000</Value>
+                	<Value>44100</Value>
+                	<Value>48000</Value>
+                </Enum>
+            </Property>
+            <Property Name="WMDM/SubTitle">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/SubTitleDescription">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Title">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/TotalBitrate">
+                <Range Minimum="4000" Maximum="364000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/Track">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/UserEffectiveRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/UserRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/VideoBitrate">
+                <Range Minimum="4000" Maximum="300000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/VideoFourCCCodec">
+                <Enum>
+                    <Value>WMV7</Value>
+                    <Value>WMV8</Value>
+                    <Value>WMV9</Value>
+                    <Value>WMV9ADVANCED</Value>
+                    <Value>WMVPHOTOSTORY</Value>
+                    <Value>WMVPHOTOSTORY2</Value>
+                    <Value>MSMPEG4V3</Value>
+                    <Value>MSMPEG4V2</Value>
+                    <Value>ISOMPEG4V2</Value>
+                    <Value>ISOMPEG4</Value>
+                </Enum>
+            </Property>
+            <Property Name="WMDM/Width">
+                <Range Minimum="0" Maximum="320" Step="1"/>
+            </Property>
+        </Config>
+    </FormatCapability>
+    <FormatCapability FormatCode="WMV">
+        <Config>
+            <Property Name="WMDM/AudioWAVECodec">
+                <Enum>
+                    <Value>WMASPEECH1</Value>
+                    <Value>WMA1</Value>
+                    <Value>WMASTD1</Value>
+					<Value>WMAPRO1</Value>
+					<Value>WMALOSSLESS</Value>
+                </Enum>
+            </Property>
+            <Property Name="WMDM/Author">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/AlbumTitle">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Bitrate">
+                <Range Minimum="0" Maximum="384000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/BuyNow">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Description">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Duration">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/FileName">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/FrameRate">
+                <Range Minimum="0" Maximum="30000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/Genre">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Height">
+                <Range Minimum="0" Maximum="240" Step="1"/>
+            </Property>
+            <Property Name="WMDM/NumChannels">
+                <Range Minimum="1" Maximum="2" Step="1"/>
+            </Property>
+            <Property Name="WMDM/ParentalRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/PersistentUniqueID">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/PlayCount">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/ProviderCopyright">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/SampleRate">
+                <Enum>
+                	<Value>8000</Value>
+                	<Value>11025</Value>
+                	<Value>16000</Value>
+                	<Value>22050</Value>
+                	<Value>32000</Value>
+                	<Value>44100</Value>
+                	<Value>48000</Value>
+                </Enum>
+            </Property>
+            <Property Name="WMDM/SubTitle">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/SubTitleDescription">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Title">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/TotalBitrate">
+                <Range Minimum="4000" Maximum="364000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/Track">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/UserEffectiveRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/UserRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/VideoBitrate">
+                <Range Minimum="4000" Maximum="300000" Step="1"/>
+            </Property>
+            <Property Name="WMDM/VideoFourCCCodec">
+                <Enum>
+                    <Value>WMV7</Value>
+                    <Value>WMV8</Value>
+                    <Value>WMV9</Value>
+                    <Value>WMV9ADVANCED</Value>
+                    <Value>WMVPHOTOSTORY</Value>
+                    <Value>WMVPHOTOSTORY2</Value>
+                    <Value>MSMPEG4V3</Value>
+                    <Value>MSMPEG4V2</Value>
+                    <Value>ISOMPEG4V2</Value>
+                    <Value>ISOMPEG4</Value>
+                </Enum>
+            </Property>
+            <Property Name="WMDM/Width">
+                <Range Minimum="0" Maximum="320" Step="1"/>
+            </Property>
+        </Config>
+    </FormatCapability>
+    <FormatCapability FormatCode="EXIF">
+        <Config>
+            <Property Name="WMDM/Author">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/AlbumTitle">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/FileName">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Height">
+                <Range Minimum="0" Maximum="240" Step="1"/>
+            </Property>
+            <Property Name="WMDM/PersistentUniqueID">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/PlayCount">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Title">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/UserEffectiveRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Width">
+                <Range Minimum="0" Maximum="320" Step="1"/>
+            </Property>
+        </Config>
+    </FormatCapability>
+    <FormatCapability FormatCode="ABSTRACTAVPLAYLIST">
+        <Config>
+            <Property Name="WMDM/ParentalRating">
+                <Any/>
+            </Property>
+            <Property Name="WMDM/Title">
+                <Any/>
+            </Property>
+        </Config>
+    </FormatCapability>
+</DeviceCapabilities>

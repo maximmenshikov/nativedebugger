@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RootAccess>
+ <Executable File="WindowsFolder\clientshutdown.exe">
+    <Destination Path="\Windows\clientshutdown" />
+    <Destination Path="\Windows\CoreCon1.1\clientshutdown.exe" />
+ </Executable>
+ <Executable File="WindowsFolder\CMAccept.exe">
+    <Destination Path="\Windows\CMAccept.exe" />
+    <Destination Path="\Windows\CoreCon1.1\CMAccept.exe" />
+ </Executable>
+ <Library File="WindowsFolder\cmccdll.dll">
+    <Destination Path="\Windows\cmccdll.dll" />
+    <Destination Path="\Windows\CoreCon1.1\cmccdll.dll" />
+ </Library>
+ <Executable File="WindowsFolder\ConmanClient2.exe">
+    <Destination Path="\Windows\ConmanClient2.exe" />
+    <Destination Path="\Windows\CoreCon1.1\ConmanClient2.exe" />
+ </Executable>
+ <Library File="WindowsFolder\DeviceAgentTransport.dll">
+    <Destination Path="\Windows\DeviceAgentTransport.dll" />
+    <Destination Path="\Windows\CoreCon1.1\DeviceAgentTransport.dll" />
+ </Library>
+ <Library File="WindowsFolder\DeviceDMA.dll">
+    <Destination Path="\Windows\DeviceDMA.dll" />
+    <Destination Path="\Windows\CoreCon1.1\DeviceDMA.dll" />
+ </Library>
+ <Executable File="WindowsFolder\eDbgJit.exe">
+    <Destination Path="\Windows\eDbgJit.exe" />
+    <Destination Path="\Windows\CoreCon1.1\eDbgJit.exe" />
+ </Executable>
+ <Library File="WindowsFolder\eDbgTL.dll">
+    <Destination Path="\Windows\eDbgTL.dll" />
+    <Destination Path="\Windows\CoreCon1.1\eDbgTL.dll" />
+ </Library>
+ <Executable File="WindowsFolder\edm2.exe">
+    <Destination Path="\Windows\edm2.exe" />
+    <Destination Path="\Windows\CoreCon1.1\edm2.exe" />
+ </Executable>
+ <Executable File="WindowsFolder\edm2p.exe">
+    <Destination Path="\Windows\edm2p.exe" />
+    <Destination Path="\Windows\CoreCon1.1\edm2p.exe" />
+ </Executable>
+ <Executable File="WindowsFolder\emulatorstub.exe">
+    <Destination Path="\Windows\emulatorstub.exe" />
+    <Destination Path="\Windows\CoreCon1.1\emulatorstub.exe" />
+ </Executable>
+ <Executable File="WindowsFolder\rapiclnt.exe">
+    <Destination Path="\Windows\rapiclnt.exe" />
+    <Destination Path="\Windows\CoreCon1.1\rapiclnt.exe" />
+ </Executable>
+ <Executable File="WindowsFolder\rapiworker.exe">
+    <Destination Path="\Windows\rapiworker.exe" />
+    <Destination Path="\Windows\CoreCon1.1\rapiworker.exe" />
+ </Executable>
+ <Library File="WindowsFolder\rpicdll.dll">
+    <Destination Path="\Windows\rpicdll.dll" />
+    <Destination Path="\Windows\CoreCon1.1\rpicdll.dll" />
+ </Library>
+ <Library File="WindowsFolder\rpishell.dll" >
+    <Destination Path="\Windows\rpishell.dll" />
+    <Destination Path="\Windows\CoreCon1.1\rpishell.dll" />
+ </Library>
+ <Library File="WindowsFolder\rpivcs.dll" >
+    <Destination Path="\Windows\rpivcs.dll" />
+    <Destination Path="\Windows\CoreCon1.1\rpivcs.dll" />
+ </Library>
+ <Library File="WindowsFolder\rpshell.dll" >
+    <Destination Path="\Windows\rpshell.dll" />
+    <Destination Path="\Windows\CoreCon1.1\rpshell.dll" />
+ </Library>
+ <Library File="WindowsFolder\TcpConnectionA.dll" >
+    <Destination Path="\Windows\TcpConnectionA.dll" />
+    <Destination Path="\Windows\CoreCon1.1\TcpConnectionA.dll" />
+ </Library>
+ <Library File="WindowsFolder\wince_remote_arm.dll" >
+    <Destination Path="\Windows\wince_remote_arm.dll" />
+    <Destination Path="\Windows\CoreCon1.1\wince_remote_arm.dll" />
+ </Library>
+</RootAccess>

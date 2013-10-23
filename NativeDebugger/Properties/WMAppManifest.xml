@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{1bb49e6d-518f-4a10-9a34-7a63041282a9}" Title="@AppResLib.dll,-100" RuntimeType="Silverlight" Version="1.5.0.0" Genre="apps.normal"  Author="ultrashot" Description="Windows Mobile Device Center launcher for Windows Phone 7" Publisher="ultrashot" BitsPerPixel="32">
+    <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_INTEROPSERVICES" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask  Name ="_default" NavigationPage="MainPage.xaml"/>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="WmdcLauncherToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>@AppResLib.dll,-101</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
